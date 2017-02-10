@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1cc1acaf-888d-4a17-a9b9-ee3281539398}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>auto_plot.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="dist\mpl-data\fonts\pdfcorefonts\readme.txt" />
+    <Content Include="dist\mpl-data\fonts\ttf\COPYRIGHT.TXT" />
+    <Content Include="dist\mpl-data\fonts\ttf\README.TXT" />
+    <Content Include="dist\mpl-data\fonts\ttf\RELEASENOTES.TXT" />
+    <Content Include="dist\mpl-data\images\back.png" />
+    <Content Include="dist\mpl-data\images\back.svg" />
+    <Content Include="dist\mpl-data\images\filesave.png" />
+    <Content Include="dist\mpl-data\images\filesave.svg" />
+    <Content Include="dist\mpl-data\images\forward.png" />
+    <Content Include="dist\mpl-data\images\forward.svg" />
+    <Content Include="dist\mpl-data\images\hand.png" />
+    <Content Include="dist\mpl-data\images\hand.svg" />
+    <Content Include="dist\mpl-data\images\home.png" />
+    <Content Include="dist\mpl-data\images\home.svg" />
+    <Content Include="dist\mpl-data\images\matplotlib.gif" />
+    <Content Include="dist\mpl-data\images\matplotlib.png" />
+    <Content Include="dist\mpl-data\images\matplotlib.svg" />
+    <Content Include="dist\mpl-data\images\move.png" />
+    <Content Include="dist\mpl-data\images\move.svg" />
+    <Content Include="dist\mpl-data\images\qt4_editor_options.png" />
+    <Content Include="dist\mpl-data\images\qt4_editor_options.svg" />
+    <Content Include="dist\mpl-data\images\subplots.png" />
+    <Content Include="dist\mpl-data\images\zoom_to_rect.png" />
+    <Content Include="dist\mpl-data\images\zoom_to_rect.svg" />
+    <Content Include="dist\mpl-data\sample_data\ada.png" />
+    <Content Include="dist\mpl-data\sample_data\grace_hopper.jpg" />
+    <Content Include="dist\mpl-data\sample_data\grace_hopper.png" />
+    <Content Include="dist\mpl-data\sample_data\lena.jpg" />
+    <Content Include="dist\mpl-data\sample_data\lena.png" />
+    <Content Include="dist\mpl-data\sample_data\logo2.png" />
+    <Content Include="dist\mpl-data\sample_data\Minduka_Present_Blue_Pack.png" />
+    <Content Include="dist\mpl-data\sample_data\necked_tensile_specimen.png" />
+    <Content Include="dist\mpl-data\sample_data\None_vs_nearest-pdf.png" />
+    <Content Include="dist\mpl-data\sample_data\README.txt" />
+    <Content Include="hathor\images\hathor.jpg" />
+    <Content Include="sarsat.txt" />
+    <Content Include="sarsat2.txt" />
+    <Content Include="sat_plot_animate\dist\mpl-data\fonts\pdfcorefonts\readme.txt" />
+    <Content Include="sat_plot_animate\dist\mpl-data\fonts\ttf\COPYRIGHT.TXT" />
+    <Content Include="sat_plot_animate\dist\mpl-data\fonts\ttf\README.TXT" />
+    <Content Include="sat_plot_animate\dist\mpl-data\fonts\ttf\RELEASENOTES.TXT" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\back.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\back.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\filesave.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\filesave.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\forward.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\forward.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\hand.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\hand.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\home.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\home.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\matplotlib.gif" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\matplotlib.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\matplotlib.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\move.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\move.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\qt4_editor_options.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\qt4_editor_options.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\subplots.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\zoom_to_rect.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\images\zoom_to_rect.svg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\ada.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\grace_hopper.jpg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\grace_hopper.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\lena.jpg" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\lena.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\logo2.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\Minduka_Present_Blue_Pack.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\necked_tensile_specimen.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\None_vs_nearest-pdf.png" />
+    <Content Include="sat_plot_animate\dist\mpl-data\sample_data\README.txt" />
+    <Content Include="_tmp0000049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auto_plot.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\bz2.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\lxml.etree.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\markupsafe._speedups.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib.backends._backend_agg.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib.ft2font.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib.ttconv.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._cntr.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._image.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._path.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._png.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._qhull.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\matplotlib._tri.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\mistune.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.multiarray.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.multiarray_tests.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.operand_flag_tests.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.struct_ufunc_test.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.test_rational.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.umath.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core.umath_tests.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.core._dummy.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.fft.fftpack_lite.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.linalg.lapack_lite.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.linalg._umath_linalg.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\numpy.random.mtrand.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\PIL._imaging.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\pyexpat.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\PyQt4.QtCore.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\PyQt4.QtGui.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\PyQt4.QtSvg.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\select.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\sip.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\tornado.speedups.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\unicodedata.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32api.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32clipboard.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32evtlog.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32pdh.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32pipe.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32security.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32ui.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\win32wnet.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\wx._controls_.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\wx._core_.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\wx._gdi_.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\wx._misc_.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\wx._windows_.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\zmq.devices.monitoredqueue.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\zmq.libzmq.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_cffi_backend.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_ctypes.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_elementtree.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_hashlib.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_multiprocessing.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_socket.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_sqlite3.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_ssl.py" />
+    <Compile Include="build\bdist.win-amd64\winexe\temp\_win32sysloader.py" />
+    <Compile Include="jday.py" />
+    <Compile Include="sat_plot4.py" />
+    <Compile Include="sat_plot5.py" />
+    <Compile Include="sat_plot6.py" />
+    <Compile Include="sat_plot_animate.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\bz2.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\lxml.etree.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\markupsafe._speedups.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib.backends._backend_agg.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib.ft2font.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib.ttconv.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._cntr.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._image.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._path.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._png.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._qhull.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\matplotlib._tri.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\mistune.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.multiarray.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.multiarray_tests.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.operand_flag_tests.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.struct_ufunc_test.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.test_rational.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.umath.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core.umath_tests.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.core._dummy.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.fft.fftpack_lite.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.linalg.lapack_lite.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.linalg._umath_linalg.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\numpy.random.mtrand.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\PIL._imaging.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\pyexpat.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\PyQt4.QtCore.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\PyQt4.QtGui.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\PyQt4.QtSvg.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\select.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\sip.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\tornado.speedups.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\unicodedata.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32api.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32clipboard.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32evtlog.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32pdh.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32pipe.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32security.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32ui.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\win32wnet.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\wx._controls_.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\wx._core_.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\wx._gdi_.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\wx._misc_.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\wx._windows_.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\zmq.devices.monitoredqueue.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\zmq.libzmq.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_cffi_backend.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_ctypes.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_elementtree.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_hashlib.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_multiprocessing.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_socket.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_sqlite3.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_ssl.py" />
+    <Compile Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp\_win32sysloader.py" />
+    <Compile Include="sat_plot_animate\sat_plot_animate_v2.py" />
+    <Compile Include="sat_plot_animate\setup.py" />
+    <Compile Include="sat_plot_animate_v1.py" />
+    <Compile Include="sat_plot_animate_v2.py" />
+    <Compile Include="sat_plot_auto.py" />
+    <Compile Include="sat_plot_auto2.py" />
+    <Compile Include="setup.py" />
+    <Compile Include="test_folder_2\jday.py" />
+    <Compile Include="test_folder_2\sat_plot4.py" />
+    <Compile Include="test_folder_2\TLE_v2a.py" />
+    <Compile Include="test_folder_2\xml_process_v6a.py" />
+    <Compile Include="test_plot1.py" />
+    <Compile Include="test_plot2.py" />
+    <Compile Include="test_plot3.py" />
+    <Compile Include="test_plot4.py" />
+    <Compile Include="test_plot5.py" />
+    <Compile Include="TLE_v2a.py" />
+    <Compile Include="xml_auto_v1.py" />
+    <Compile Include="xml_process_v6a - Copy.py" />
+    <Compile Include="xml_process_v6a.py" />
+    <Compile Include="xml_process_v7.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="build\" />
+    <Folder Include="build\bdist.win-amd64\" />
+    <Folder Include="build\bdist.win-amd64\winexe\" />
+    <Folder Include="build\bdist.win-amd64\winexe\temp" />
+    <Folder Include="dist\" />
+    <Folder Include="dist\mpl-data\" />
+    <Folder Include="dist\mpl-data\fonts\" />
+    <Folder Include="dist\mpl-data\fonts\pdfcorefonts" />
+    <Folder Include="dist\mpl-data\fonts\ttf" />
+    <Folder Include="dist\mpl-data\images" />
+    <Folder Include="dist\mpl-data\sample_data" />
+    <Folder Include="hathor\" />
+    <Folder Include="hathor\images" />
+    <Folder Include="sat_plot_animate" />
+    <Folder Include="sat_plot_animate\build\" />
+    <Folder Include="sat_plot_animate\build\bdist.win-amd64\" />
+    <Folder Include="sat_plot_animate\build\bdist.win-amd64\winexe\" />
+    <Folder Include="sat_plot_animate\build\bdist.win-amd64\winexe\temp" />
+    <Folder Include="sat_plot_animate\dist\" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\fonts\" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\fonts\pdfcorefonts" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\fonts\ttf" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\images" />
+    <Folder Include="sat_plot_animate\dist\mpl-data\sample_data" />
+    <Folder Include="test_folder_2" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
